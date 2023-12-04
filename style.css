@@ -1,0 +1,29 @@
+body {
+    padding: 0 !important; 
+    margin: 0 !important;
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+
+#grid {
+    background-color: rgba(0, 0, 0, 0);
+    z-index: -1000;
+    position: absolute;
+}
+
+.pcontainer {
+    z-index: 1000;
+    position: fixed;
+    left: 20px;
+    top: 10px;
+}
+
+p {
+    margin: 8px;
+}
